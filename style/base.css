@@ -23,8 +23,3 @@ nav {
 .scrolling {
   overflow-y: auto; /* This enables scrolling on main */
 }
-
-.cards__fotos {
-  width: 100px;
-  height: 140px;
-}

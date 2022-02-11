@@ -1,5 +1,8 @@
 @import "/style/base.css";
 @import "/style/fonts.css";
+
+@import "style/header.css";
+@import "/style/profilepicture.css";
+@import "/style/iphone.css";
 @import "/style/navigation.css";
-@import "/header.css";
-@import "/style/notification.css";
+@import "/style/story.css";
