@@ -10,6 +10,8 @@ body {
   display: grid;
   grid-template-rows: 48px auto 48px; /* 'auto' takes as much space as it is left */
   height: 100vh; /* Need to specify a height */
+  margin: 0 auto;
+  gap: 12px;
 }
 
 nav {
