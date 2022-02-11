@@ -1,0 +1,31 @@
+.header {
+  height: 32px;
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+
+.header__message {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #727477;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header__notification-point {
+  height: 6px;
+  width: 6px;
+  background-color: #f62e8e;
+  border: 1.2px solid #ffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+}
