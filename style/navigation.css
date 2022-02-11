@@ -1,0 +1,11 @@
+.navigation {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation__icons {
+  color: #ecebed;
+}
