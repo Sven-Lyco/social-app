@@ -1,0 +1,26 @@
+.navigation {
+  background-color: black;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navigation__icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigation__icons--background {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
