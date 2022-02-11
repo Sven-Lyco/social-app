@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #323436;
+  color: #ecebed;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  /* Grid with three defined rows on body*/
+  display: grid;
+  grid-template-rows: 48px auto 48px; /* 'auto' takes as much space as it is left */
+  height: 100vh; /* Need to specify a height */
+}
+
+nav {
+  display: flex;
+  grid-auto-flow: row;
+}
+
+.scrolling {
+  overflow-y: auto; /* This enables scrolling on main */
+}
