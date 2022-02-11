@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #323436;
+  background-color: #181a1c;
   color: #ecebed;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   /* Grid with three defined rows on body*/
@@ -12,6 +12,7 @@ body {
   height: 100vh; /* Need to specify a height */
   margin: 0 auto;
   gap: 12px;
+  position: relative;
 }
 
 nav {
@@ -21,4 +22,9 @@ nav {
 
 .scrolling {
   overflow-y: auto; /* This enables scrolling on main */
+}
+
+.cards__fotos {
+  width: 100px;
+  height: 140px;
 }
