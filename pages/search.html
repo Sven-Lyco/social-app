@@ -9,17 +9,37 @@
     <title>Social-App</title>
   </head>
   <body>
-    <div class="iphone__top--home-page">
-      <header class="header">
-        <h1>Good Morning, Alex.</h1>
-        <div class="header__message">
-          <a href=""
-            ><img src="../images/icons/icons-white/Message.png" alt=""
-          /></a>
-          <div class="header__notification-point"></div>
+    <div>
+      <div class="iphone__top--home-page"></div>
+      <header class="header__search">
+        <div>
+          <form action="#">
+            <label for="search"></label>
+            <input
+              class="header__search--input"
+              type="text"
+              id="search"
+              placeholder="Search for people, posts, tags..."
+            />
+          </form>
+          <img
+            class="header__search--icon"
+            src="/images/icons/icons-gray/Search.png"
+            alt=""
+          />
         </div>
+        <h1 class="header__search--title">Popular</h1>
+        <ul class="header__search--categories" role="list">
+          <li>All</li>
+          <li>Profiles</li>
+          <li>Photos</li>
+          <li>Videos</li>
+          <li>Text</li>
+          <li>Links</li>
+        </ul>
       </header>
     </div>
+
     <main class="scrolling">
       <!-- Picture post -->
       <section>
@@ -135,7 +155,7 @@
       </section>
     </main>
     <nav class="navigation">
-      <a class="navigation__icons" href="#"
+      <a class="navigation__icons" href="/index.html"
         ><img src="../images/icons/icons-gray/Feed.png" alt=""
       /></a>
       <a class="navigation__icons" href="search.html"
