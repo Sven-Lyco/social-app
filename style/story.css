@@ -2,8 +2,11 @@
   display: grid;
   grid-template-columns: repeat(4, 100px);
   gap: 12px;
-  margin-left: 24px;
   overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: 1px solid #727477;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 
 .storyfeed__picture {

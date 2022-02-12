@@ -1,0 +1,76 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid #727477;
+  margin-top: 16px;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 34px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.card__profile--info {
+  margin-left: 8px;
+}
+
+.profile__name {
+  font-size: small;
+}
+
+.post-time {
+  font-size: small;
+  color: #727477;
+}
+
+.card__menu {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 24px;
+}
+
+.card__content {
+  margin-right: 24px;
+  margin-top: 16px;
+  padding-left: 24px;
+}
+
+.card__content--grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 16px;
+  padding-left: 24px;
+}
+
+.card__content--text {
+  margin: 0;
+}
+
+.card__post-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+.card__bookmark {
+  position: absolute;
+  right: 24px;
+}
+
+.card__content--image {
+  border-radius: 16px;
+}
