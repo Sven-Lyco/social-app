@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 34px;
+
+  position: relative;
+}
+
+.card__profile--info {
+  margin-left: 8px;
+}
+
+.profile__name {
+  font-size: small;
+}
+
+.post-time {
+  font-size: small;
+  color: #727477;
+}
+
+.card__menu {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 24px;
+}
+
+.card__content {
+  margin-right: 24px;
+  margin-top: 16px;
+}
+
+.card__content--text {
+  margin: 0;
+}
