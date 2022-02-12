@@ -15,6 +15,10 @@ body {
   position: relative;
 }
 
+h1 {
+  font-size: large;
+}
+
 nav {
   display: flex;
   grid-auto-flow: row;
