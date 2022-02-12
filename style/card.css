@@ -12,7 +12,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 34px;
-
+  padding-left: 24px;
   position: relative;
 }
 
@@ -39,6 +39,17 @@
 .card__content {
   margin-right: 24px;
   margin-top: 16px;
+  padding-left: 24px;
+}
+
+.card__content--grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 16px;
+  padding-left: 24px;
 }
 
 .card__content--text {
@@ -52,6 +63,7 @@
   gap: 8px;
   position: relative;
   margin: 16px 0;
+  padding-left: 24px;
 }
 
 .card__bookmark {

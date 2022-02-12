@@ -10,8 +10,8 @@ body {
   display: grid;
   grid-template-rows: auto auto 88px; /* 'auto' takes as much space as it is left */
   height: 100vh; /* Need to specify a height */
-  margin: 0 auto;
-  gap: 12px;
+  margin-left: 0;
+  margin-right: 0;
   position: relative;
 }
 
@@ -26,5 +26,4 @@ nav {
 
 .scrolling {
   overflow-y: auto; /* This enables scrolling on main */
-  margin-left: 24px;
 }
