@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(4, 100px);
   gap: 12px;
-  margin-left: 24px;
   overflow-x: auto;
 }
 

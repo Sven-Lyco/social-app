@@ -22,4 +22,5 @@ nav {
 
 .scrolling {
   overflow-y: auto; /* This enables scrolling on main */
+  margin-left: 24px;
 }
