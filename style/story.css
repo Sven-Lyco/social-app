@@ -1,6 +1,6 @@
 .storyfeed {
   display: grid;
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(10, auto);
   gap: 12px;
   overflow-x: auto;
   overflow-y: hidden;

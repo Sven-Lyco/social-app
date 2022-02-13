@@ -1,0 +1,13 @@
+input {
+  border: 0;
+}
+
+input[type="text"] {
+  padding-left: 16px;
+  color: white;
+  font-family: Lato, Arial, sans-serif;
+}
+
+::placeholder {
+  color: white;
+}
