@@ -2,8 +2,9 @@
 @import "/style/fonts.css";
 
 @import "style/header.css";
-@import "/style/profilepicture.css";
-@import "/style/iphone.css";
-@import "/style/navigation.css";
 @import "/style/story.css";
-@import "/style/card.css";
+
+@import "/style/components/profilepicture.css";
+@import "/style/components/navigation.css";
+@import "/style/components/card.css";
+@import "/style/components/iphone.css";

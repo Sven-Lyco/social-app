@@ -1,13 +1,13 @@
 /* Header Newsfeed */
 .header__newsfeed {
   height: 32px;
-  width: 330px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0px;
   margin-left: 24px;
+  margin-right: 24px;
   margin-bottom: 24px;
 }
 
@@ -37,18 +37,23 @@
 
 .header__search {
   height: auto;
-  width: 327px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin-left: 24px;
-  position: relative;
+}
+
+.header__search--flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header__search--input {
   background: #323436;
   border-radius: 32px;
+  width: 87vw;
   height: 44px;
-  width: 327px;
 }
 
 ::placeholder {
@@ -57,9 +62,9 @@
 }
 
 .header__search--icon {
-  position: absolute;
-  right: 15px;
-  top: 10px;
+  height: 20px;
+  width: 20px;
+  margin-left: -30px;
 }
 
 .header__search--title {
