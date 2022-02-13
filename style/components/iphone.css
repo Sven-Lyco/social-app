@@ -1,8 +1,5 @@
 .iphone__top--home-page {
   background-color: transparent;
   height: 44px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  margin: 0;
 }

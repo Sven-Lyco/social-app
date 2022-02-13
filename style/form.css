@@ -1,3 +1,7 @@
+input {
+  border: 0;
+}
+
 input[type="text"] {
   color: white;
   font-family: Lato, Arial, sans-serif;

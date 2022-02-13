@@ -40,13 +40,15 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
+  margin: 0;
+  padding-left: 24px;
 }
 
 .header__search--flex {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0;
 }
 
 .header__search--input {
@@ -68,11 +70,11 @@
 }
 
 .header__search--categories {
-  height: 32px;
   list-style: none;
   padding: 0;
+  height: 32px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(10, auto);
   gap: 12px;
   overflow-x: auto;
   overflow-y: hidden;
