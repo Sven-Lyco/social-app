@@ -44,6 +44,15 @@
   padding-left: 24px;
 }
 
+.header__search--sticky {
+  background-color: #181a1c;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin-left: 24px;
+  padding-bottom: 5px;
+}
+
 .header__search--flex {
   display: flex;
   flex-direction: row;
@@ -66,6 +75,7 @@
 
 .header__search--title {
   margin-top: 24px;
+  margin-bottom: 12px;
   color: white;
 }
 
@@ -76,6 +86,7 @@
   display: grid;
   grid-template-columns: repeat(10, auto);
   gap: 12px;
+  margin: 0;
   overflow-x: auto;
   overflow-y: hidden;
   font-size: smaller;
