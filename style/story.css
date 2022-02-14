@@ -4,6 +4,8 @@
   gap: 12px;
   overflow-x: auto;
   overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
   border-bottom: 1px solid #727477;
   padding-bottom: 24px;
   padding-left: 24px;

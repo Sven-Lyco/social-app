@@ -9,9 +9,9 @@
     <title>Social-App</title>
   </head>
   <body>
-    <div class="header__search">
-      <div class="iphone__top--home-page"></div>
-      <header>
+    <main class="scrolling">
+      <header class="header__search">
+        <div class="iphone__top--home-page"></div>
         <div class="header__search--flex">
           <form action="#">
             <label for="search"></label>
@@ -28,6 +28,8 @@
             alt=""
           />
         </div>
+      </header>
+      <div class="header__search--sticky">
         <h1 class="header__search--title">Popular</h1>
         <ul class="header__search--categories" role="list">
           <li>All</li>
@@ -37,127 +39,123 @@
           <li>Text</li>
           <li>Links</li>
         </ul>
-      </header>
-    </div>
-
-    <main class="scrolling">
-      <!-- Picture post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?woman"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Michelle Ogilvy</div>
-              <div class="post-time">1h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
-          </div>
-          <div class="card__content--grid">
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?sculpture"
-              alt=""
-            />
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?art"
-              alt=""
-            />
-          </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>18.6k</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>4.7k</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span>12.4k</span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
 
       <!-- Picture post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?man"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Brandon Loia</div>
-              <div class="post-time">1h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+
+      <div class="card">
+        <div class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?woman"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Michelle Ogilvy</div>
+            <div class="post-time">1h ago</div>
           </div>
-          <div class="card__content">
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?laptop"
-              alt=""
-            />
-          </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>4,762</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>186</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span>2,891</span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
         </div>
-      </section>
+        <div class="card__content-pictures">
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?sculpture"
+            alt=""
+          />
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?art"
+            alt=""
+          />
+        </div>
+        <div class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>18.6k</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>4.7k</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span>12.4k</span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </div>
+      </div>
+
       <!-- Picture post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?men"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Dustin Grant</div>
-              <div class="post-time">3h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+
+      <article class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?man"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Brandon Loia</div>
+            <div class="post-time">1h ago</div>
           </div>
-          <div class="card__content">
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?streetart"
-              alt=""
-            />
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>238</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>14</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span>4</span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
+        </header>
+        <div class="card__content">
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?laptop"
+            alt=""
+          />
         </div>
-      </section>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>4,762</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>186</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span>2,891</span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </article>
+
+      <!-- Picture post -->
+
+      <div class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?men"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Dustin Grant</div>
+            <div class="post-time">3h ago</div>
+          </div>
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
+          </div>
+        </header>
+        <div class="card__content">
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?streetart"
+            alt=""
+          />
+        </div>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>238</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>14</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span>4</span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </div>
     </main>
     <nav class="navigation">
       <a class="navigation__icons" href="/index.html"
