@@ -43,14 +43,15 @@
   padding-left: 24px;
 }
 
-.card__content--grid {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+.card__content-pictures {
+  display: flex;
   gap: 12px;
   overflow-x: auto;
   overflow-y: hidden;
   margin-top: 16px;
   padding-left: 24px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 
 .card__content--text {

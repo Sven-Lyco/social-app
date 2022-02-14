@@ -9,20 +9,21 @@
     <title>Social-App</title>
   </head>
   <body>
-    <div>
-      <div class="iphone__top--home-page"></div>
-      <!-- Header-Newsfeed -->
-      <header class="header__newsfeed">
-        <h1>Good Morning, Alex.</h1>
-        <div class="header__message">
-          <a href=""
-            ><img src="./images/icons/icons-white/Message.png" alt=""
-          /></a>
-          <div class="header__notification-point"></div>
-        </div>
-      </header>
-    </div>
     <main class="scrolling">
+      <div>
+        <div class="iphone__top--home-page"></div>
+        <!-- Header-Newsfeed -->
+        <header class="header__newsfeed">
+          <h1>Good Morning, Alex.</h1>
+          <div class="header__message">
+            <a href=""
+              ><img src="./images/icons/icons-white/Message.png" alt=""
+            /></a>
+            <div class="header__notification-point"></div>
+          </div>
+        </header>
+      </div>
+
       <!-- Storyfeed -->
       <div class="storyfeed">
         <!--storyfeed picture 1-->
@@ -36,7 +37,7 @@
             <div class="storyfeed__profilpicture--background">
               <img
                 class="profilpicture__small--border"
-                src="https://source.unsplash.com/32x32/?portrait"
+                src="https://source.unsplash.com/32x32/?men"
                 alt=""
               />
             </div>
@@ -102,8 +103,11 @@
           />
           <div class="storyfeed__profilpicture">
             <div class="storyfeed__profilpicture--background">
-              <img class="profilpicture__small--border"
-              src="https://source.unsplash.com/32x32/?portrait alt="" />
+              <img
+                class="profilpicture__small--border"
+                src="https://source.unsplash.com/32x32/?men"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -116,203 +120,201 @@
           />
           <div class="storyfeed__profilpicture">
             <div class="storyfeed__profilpicture--background">
-              <img class="profilpicture__small--border"
-              src="https://source.unsplash.com/32x32/?portrait alt="" />
+              <img
+                class="profilpicture__small--border"
+                src="https://source.unsplash.com/32x32/?portrait"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
       <!-- Text post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?man"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Jacob Washington</div>
-              <div class="post-time">20m ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+      <article class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?man"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Jacob Washington</div>
+            <div class="post-time">20m ago</div>
           </div>
-          <div class="card__content">
-            <p class="card__content--text">
-              "If you think you are too small to make a difference, try sleeping
-              with a mosquito."<br />
-              ~ Dalai Lama
-            </p>
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>2,245</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>45</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span>124</span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
+        </header>
+        <div class="card__content">
+          <p class="card__content--text">
+            "If you think you are too small to make a difference, try sleeping
+            with a mosquito."<br />
+            ~ Dalai Lama
+          </p>
         </div>
-      </section>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>2,245</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>45</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span>124</span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </article>
       <!-- Picture post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?woman"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Kat Williams</div>
-              <div class="post-time">1h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+      <article class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?woman"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Kat Williams</div>
+            <div class="post-time">1h ago</div>
           </div>
-          <div class="card__content--grid">
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?venedig"
-              alt=""
-            />
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?paris"
-              alt=""
-            />
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?newyork"
-              alt=""
-            />
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>8,988</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>145</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span>12</span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
+        </header>
+        <div class="card__content-pictures">
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?venedig"
+            alt=""
+          />
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?paris"
+            alt=""
+          />
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?newyork"
+            alt=""
+          />
         </div>
-      </section>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>8,988</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>145</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span>12</span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </article>
+
       <!-- Text post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?men"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Tony Monta</div>
-              <div class="post-time">1h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+      <article class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?men"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Tony Monta</div>
+            <div class="post-time">1h ago</div>
           </div>
-          <div class="card__content">
-            <p class="card__content--text">Writing code is not so bad!</p>
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>14</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span></span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span></span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
+        </header>
+        <div class="card__content">
+          <p class="card__content--text">Writing code is not so bad!</p>
         </div>
-      </section>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>14</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span></span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span></span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </article>
+
       <!-- Picture post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?women"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Jessica Thompson</div>
-              <div class="post-time">2h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+
+      <article class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?women"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Jessica Thompson</div>
+            <div class="post-time">2h ago</div>
           </div>
-          <div class="card__content">
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?plants"
-              alt=""
-            />
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>17</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>2</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span></span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
+        </header>
+        <div class="card__content">
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?plants"
+            alt=""
+          />
         </div>
-      </section>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>17</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>2</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span></span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </article>
+
       <!-- Picture post -->
-      <section>
-        <div class="card">
-          <div class="card__header">
-            <img
-              class="profilpicture__small"
-              src="https://source.unsplash.com/32x32/?men"
-              alt=""
-            />
-            <div class="card__profile--info">
-              <div class="profile__name">Dustin Grant</div>
-              <div class="post-time">3h ago</div>
-            </div>
-            <div class="card__menu">
-              <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
-            </div>
+
+      <div class="card">
+        <header class="card__header">
+          <img
+            class="profilpicture__small"
+            src="https://source.unsplash.com/32x32/?men"
+            alt=""
+          />
+          <div class="card__profile--info">
+            <div class="profile__name">Dustin Grant</div>
+            <div class="post-time">3h ago</div>
           </div>
-          <div class="card__content">
-            <img
-              class="card__content--image"
-              src="https://source.unsplash.com/327x180/?streetart"
-              alt=""
-            />
+          <div class="card__menu">
+            <img src="./images/icons/icons-gray/Dots Vertical.png" alt="" />
           </div>
-          <div class="card__post-actions">
-            <img src="/images/icons/icons-white/Like.png" alt="" />
-            <span>238</span>
-            <img src="/images/icons/icons-white/Comment.png" alt="" />
-            <span>14</span>
-            <img src="/images/icons/icons-white/Share.png" alt="" />
-            <span>4</span>
-            <div class="card__bookmark">
-              <img src="/images/icons/icons-white/Bookmark.png" alt="" />
-            </div>
-          </div>
+        </header>
+        <div class="card__content">
+          <img
+            class="card__content--image"
+            src="https://source.unsplash.com/327x180/?streetart"
+            alt=""
+          />
         </div>
-      </section>
+        <footer class="card__post-actions">
+          <img src="/images/icons/icons-white/Like.png" alt="" />
+          <span>238</span>
+          <img src="/images/icons/icons-white/Comment.png" alt="" />
+          <span>14</span>
+          <img src="/images/icons/icons-white/Share.png" alt="" />
+          <span>4</span>
+          <div class="card__bookmark">
+            <img src="/images/icons/icons-white/Bookmark.png" alt="" />
+          </div>
+        </footer>
+      </div>
     </main>
     <nav class="navigation">
       <a class="navigation__icons" href="#"

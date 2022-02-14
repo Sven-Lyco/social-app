@@ -8,19 +8,13 @@ body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   /* Grid with three defined rows on body*/
   display: grid;
-  grid-template-rows: auto auto 88px; /* 'auto' takes as much space as it is left */
+  grid-template-rows: auto 48px; /* 'auto' takes as much space as it is left */
   height: 100vh; /* Need to specify a height */
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 h1 {
   font-size: large;
-}
-
-nav {
-  display: flex;
-  grid-auto-flow: row;
 }
 
 .scrolling {
